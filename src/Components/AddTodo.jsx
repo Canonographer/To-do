@@ -65,7 +65,7 @@ function AddTodo() {
           type="text"
           id="form3"
           className="form-control form-control-lg"
-          placeholder='What do you need to do today?'
+          placeholder='Things to do today'
           onChange={(e)=>{setNewtask({...newtask,title:e.target.value})}}
         />
         

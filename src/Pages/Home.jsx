@@ -8,7 +8,7 @@ function Home() {
   
 
 <section className="vh-100" style={{ backgroundColor: 'rgb(9 124 239 / 27%)' }}>
-    <h1 className='text-center '>To do List</h1>
+    <h1 className='text-center ' style={{color:'black'}}>To do List</h1>
       <div className="container py-5 h-100">
         <div className="row d-flex justify-content-center  h-100">
           <div className="col col-xl-10">

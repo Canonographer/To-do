@@ -37,7 +37,7 @@ function TodoList({data,setresChange}) {
         className="list-group-item d-flex justify-content-between align-items-center border-start-0 border-top-0 border-end-0 border-bottom rounded-0 mb-2" style={{backgroundColor:'#b9b9c1'}}>
         <div className="d-flex align-items-center">
           {item.completed? <span className='pe-5 ' style={{fontWeight:'bold'}}>Task completed</span>: 
-          <button onClick={()=>complete(item.id)}>✅</button>
+          <button className='me-2' onClick={()=>complete(item.id)} style={{outline:'none', border:'none'}}>✅</button>
 
           }
         
@@ -58,7 +58,7 @@ function TodoList({data,setresChange}) {
     
       
   :
-  <h5>not found</h5>
+  <h5>Type your tasks</h5>
     }
 
     </>
